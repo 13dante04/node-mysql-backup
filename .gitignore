@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Anonymization script
+sql/anonymize.sql
+backups/*

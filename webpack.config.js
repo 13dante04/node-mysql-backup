@@ -10,6 +10,9 @@ const config = {
   output: {
     path: path.resolve(__dirname, "dist"),
   },
+  node: {
+    __dirname: true,
+  },
   devServer: {
     open: true,
     host: "localhost",
